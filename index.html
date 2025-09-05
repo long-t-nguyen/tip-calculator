@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+
+        <!-- Overlay -->
+        <div id="overlay" class="active">
+            <div class="overlay-card">
+                <h2>Password Required</h2>
+                <input type="password" id="password" placeholder="Enter password">
+                <button id="login-button">Login</button>
+                <p id="error" class="error"></p>
+            </div>
+        </div>
+
+        <!-- Calculator -->
+        <main id="calculator" style="display:none;">
+            <h1>Tip Distribution Calculator</h1>
+            <label>Total Cash ($)<input type="number" id="total-cash" min="0" step="0.01"></label>
+            <label>Servers / Bartenders<input type="number" id="servers" min="0"></label>
+            <label>Bussers<input type="number" id="bussers" min="0"></label>
+            <label>Hosts<input type="number" id="hosts" min="0" step="0.5"></label>
+            <button id="calculate">Calculate</button>
+            <button id="formula">How the Equation Works</button>
+            <div id="results"></div>
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
