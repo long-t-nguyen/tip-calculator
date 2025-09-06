@@ -375,3 +375,7 @@ button {
         font-size: 1.1rem;
     }
 }
+
+#logo {
+    background-image: url('logo.png');
+}
