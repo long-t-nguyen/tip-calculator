@@ -1,5 +1,5 @@
 ﻿//Hey Adam or Darren. Figured you guys were the only ones who'd actually look into the code.
-// The password is Oceanside. 
+// The password is OceanSide. 
 
 const PASSWORD = "OceanSide";
 const POINTS_SERVER = 2, POINTS_BUSSER = 1, POINTS_HOST = 0.5;
