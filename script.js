@@ -1,7 +1,7 @@
 ﻿        // Hey dude. Miatas ftw. 
         // The password is OceanSide. 
 
-        const PASSWORD = "OceanSide";
+        const PASSWORD = "Blocked";
         const POINTS_SERVER = 2, POINTS_BUSSER = 1, POINTS_HOST = 0.5;
 
         const overlay = document.getElementById("overlay");
